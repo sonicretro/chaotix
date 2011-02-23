@@ -1,0 +1,58 @@
+table 1 for monitors
+$2C(a6) - 1 if taken, 0 otherwise
+
+TABLE 1
+OFFSET		SIZE	DESCRIPTION
+$0-$1		word	Pointer to next OST in allocator chain
+$2-$6		?		?
+$7			byte	Current action (always even)
+					$0		none
+					$2		standing, walking
+					$4		jumping
+					$6		rolling
+					$8		wall jumping; double jumping (Vector)
+					$A		holding partner
+					$C		?
+					$E		being held by partner
+					$10		charging a spindash
+					$12-$18	?
+					$1A		being called
+					$1C		invalid
+					$1E		invalid
+					$20-$32	?
+					...
+$8			word	X position in relation to level
+$A-$B		?		?
+$C			word	Y position in relation to level
+$E-$13		?		?
+$14			word	X position in relation to screen
+$16			word	Y position in relation to screen
+$18-$1F		?		?
+$20			word?	32X art ID
+$22-$24		?		?
+$25			byte	Flags
+					BIT		DESCRIPTION
+					0-2		?
+					3		Set if facing left; clear if facing right
+$26-$2B		?		?
+$2C			word	current horizontal velocity
+$2E-$39		?		?
+$3A			word	Pointer to table 2
+$3B-$3F		?		?
+
+TABLE 2
+OFFSET		SIZE	DESCRIPTION
+$0-$1		word	Pointer to next OST in allocator chain
+$2-$2F		?		?
+$30			byte	Flags
+					BIT		DESCRIPTION
+					0		has sheild?
+					1		?
+					2		?
+					3		if 1 then shrunken, if 0 then grown; only checked when $38 != 0
+$31			?		?
+$32			word	Invincibility timer (from $4B0 to $0; $0 == no invincibility; each new box adds $4B0)
+$34			word	Speed shoes timer (from $4B0 to $0; $0 == no speed shoes; each new box adds $4B0; the song speed is B0)
+$36-$37		?		?
+$38			word	Grow/shrink timer (from $4B0 to $0; $0 == no size change; each new like box adds $4B0; each unlike box sets $0 and returns to normal)
+$39-$3F		?		?

@@ -1,0 +1,53 @@
+	| $FFFF0200 primary collision data
+		length 1024 bytes
+	| $FFFF0600 secondary collision data
+		length 1024 bytes
+	w $FFFFC030 VBlank handler opcode
+	l $FFFFC032 VBlank handler address
+	w $FFFFC036 HBlank handler opcode
+	l $FFFFC038 HBlank handler address
+?	w $FFFFC1DE horizontal scroll position for foreground plane
+?	w $FFFFC1EE vertical scroll position for foreground plane
+	l $FFFFC1FE RAM address of uncompressed level layout
+	l $FFFFC202 RAM address of uncompressed primary 128x128 block mappings
+	l $FFFFC206 RAM address of uncompressed primary 16x16 block mappings
+	l $FFFFC242 RAM address of uncompressed secondary 128x128 block mappings
+	l $FFFFC246 RAM address of uncompressed secondary 16x16 block mappings
+	| $FFFFD460 palette cache
+		length $40 words
+	| $FFFFD560 level palette cache (loaded only when a level is loaded, also copied to $FFFFD460 when bonus stage ends)
+		length $40 words
+	| $FFFFD860 32X palette cache
+		length unknown (?)
+	| $FFFFDD16 function (unknown);
+		length $E words
+	w $FFFFDFDE game mode
+	w $FFFFDFE0 game submode
+	w $FFFFDFEC camera X position
+	w $FFFFDFEE camera Y position
+	w $FFFFDFF2 current level
+		0 botanic base
+		1 speed slider
+		2 amazing arena
+		3 techno tower
+		4 marina madness
+		5 isolated island (tutorial)
+		6 isolated island (scenario quest)
+		7 world entrance
+		8 [not used] (crashes gens/gs)
+		9 bonus stage
+		A special stage
+	w $FFFFDFF4 current stage #
+	w $FFFFDFF6 current time of day
+	w $FFFFE008 # of rings
+	l $FFFFE00A current score
+	w $FFFFE01A # of Chaos Rings
+*4?	w $FFFFE038 current character
+*4?	w $FFFFE03A current second character
+	l $FFFFE09C address of current object placement data
+	w $FFFFE0A0 index into level object placement array of leftmost onscreen object
+	| $FFFFE0A2 level object cache (values unknown)
+		length $100 bytes
+	b $FFFFFCE6 current pan of the ring sound (>0 -> left; <=0 -> right)
+	b $FFFFFCFC current song; set when a certain function is called; only used by bonus stage to "resume" songs
+	b $FFFFFFD0 current demo # (0-4)
