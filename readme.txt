@@ -1,4 +1,11 @@
-started: 16 October 2009
+This is a Sonic Chaotix disassembly and toolset.
+
+DISCLAIMER:
+Any and all content presented in this repository is presented for informational and educational purposes only.
+Commercial usage is expressly prohibited. Sonic Retro claims no ownership of any code in these repositories.
+You assume any and all responsibility for using this content responsibly. Sonic Retro claims no responsibiliy or warranty.
+
+Started: 16 October 2009
 
 A lot has been done since the last time I really touched this, so I don't know everything off the top of my head. That said, please ask me for assistance if you are unsure of something I did. I may update this readme (or possibly some other file) to explain everything over time.
 
