@@ -1,4 +1,4 @@
-This is a Sonic Chaotix disassembly and toolset.
+This is a Knuckles' Chaotix disassembly and toolset.
 
 DISCLAIMER:
 Any and all content presented in this repository is presented for informational and educational purposes only.
