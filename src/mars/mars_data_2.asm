@@ -1,0 +1,595 @@
+; -------------------------------------------------------------------------
+; 32X Data 2
+; -------------------------------------------------------------------------
+
+byte_20A0200:
+	dc.b	$24, 1
+	dc.b	$1D, $37
+	dc.b	$23, 1
+	dc.b	$11, 1
+	dc.b	$12, 1
+	dc.b	$13, 1
+	dc.b	$1C, 1
+	dc.b	$FF, $FF
+
+; -------------------------------------------------------------------------
+
+off_20A0210:
+	dc.w	unk_20A03D0-off_20A0210
+	dc.w	unk_20A03D0-off_20A0210
+	dc.w	unk_20A03D0-off_20A0210
+	dc.w	unk_20A03D0-off_20A0210
+	dc.w	unk_20A03D1-off_20A0210
+	dc.w	unk_20A03D1-off_20A0210
+	dc.w	unk_20A03D1-off_20A0210
+	dc.w	unk_20A03DA-off_20A0210
+	dc.w	unk_20A03E3-off_20A0210
+	dc.w	unk_20A03E3-off_20A0210
+	dc.w	unk_20A03E3-off_20A0210
+	dc.w	unk_20A03EC-off_20A0210
+	dc.w	unk_20A03F5-off_20A0210
+	dc.w	unk_20A03F5-off_20A0210
+	dc.w	unk_20A03F5-off_20A0210
+	dc.w	unk_20A03FE-off_20A0210
+	dc.w	unk_20A0407-off_20A0210
+	dc.w	unk_20A0407-off_20A0210
+	dc.w	unk_20A0407-off_20A0210
+	dc.w	unk_20A0410-off_20A0210
+	dc.w	unk_20A0419-off_20A0210
+	dc.w	unk_20A0419-off_20A0210
+	dc.w	unk_20A0419-off_20A0210
+	dc.w	unk_20A0422-off_20A0210
+	dc.w	unk_20A042B-off_20A0210
+	dc.w	unk_20A042B-off_20A0210
+	dc.w	unk_20A042B-off_20A0210
+	dc.w	unk_20A042B-off_20A0210
+	dc.w	unk_20A042C-off_20A0210
+	dc.w	unk_20A042C-off_20A0210
+	dc.w	unk_20A042C-off_20A0210
+	dc.w	unk_20A042C-off_20A0210
+	dc.w	unk_20A042D-off_20A0210
+	dc.w	unk_20A042D-off_20A0210
+	dc.w	unk_20A042D-off_20A0210
+	dc.w	unk_20A042D-off_20A0210
+	dc.w	unk_20A0440-off_20A0210
+	dc.w	unk_20A0440-off_20A0210
+	dc.w	unk_20A0440-off_20A0210
+	dc.w	unk_20A0440-off_20A0210
+	dc.w	unk_20A0453-off_20A0210
+	dc.w	unk_20A0453-off_20A0210
+	dc.w	unk_20A0453-off_20A0210
+	dc.w	unk_20A0453-off_20A0210
+	dc.w	unk_20A0466-off_20A0210
+	dc.w	unk_20A0466-off_20A0210
+	dc.w	unk_20A0466-off_20A0210
+	dc.w	unk_20A0466-off_20A0210
+	dc.w	unk_20A0479-off_20A0210
+	dc.w	unk_20A0479-off_20A0210
+	dc.w	unk_20A0479-off_20A0210
+	dc.w	unk_20A0479-off_20A0210
+	dc.w	unk_20A048C-off_20A0210
+	dc.w	unk_20A048C-off_20A0210
+	dc.w	unk_20A048C-off_20A0210
+	dc.w	unk_20A048C-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A048D-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049A-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A049F-off_20A0210
+	dc.w	unk_20A04AC-off_20A0210
+	dc.w	unk_20A04AC-off_20A0210
+	dc.w	unk_20A04AC-off_20A0210
+	dc.w	unk_20A04AC-off_20A0210
+	dc.w	unk_20A04B9-off_20A0210
+	dc.w	unk_20A04B9-off_20A0210
+	dc.w	unk_20A04B9-off_20A0210
+	dc.w	unk_20A04B9-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BA-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04BF-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C0-off_20A0210
+	dc.w	unk_20A04C5-off_20A0210
+	dc.w	unk_20A04C5-off_20A0210
+	dc.w	unk_20A04C5-off_20A0210
+	dc.w	unk_20A04C5-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CA-off_20A0210
+	dc.w	unk_20A04CD-off_20A0210
+	dc.w	unk_20A04CD-off_20A0210
+	dc.w	unk_20A04CD-off_20A0210
+	dc.w	unk_20A04CD-off_20A0210
+	dc.w	unk_20A04DE-off_20A0210
+	dc.w	unk_20A04DE-off_20A0210
+	dc.w	unk_20A04DE-off_20A0210
+	dc.w	unk_20A04DE-off_20A0210
+	dc.w	unk_20A04DF-off_20A0210
+	dc.w	unk_20A04E4-off_20A0210
+	dc.w	unk_20A04E4-off_20A0210
+	dc.w	unk_20A04E4-off_20A0210
+	dc.w	unk_20A04E5-off_20A0210
+	dc.w	unk_20A04E5-off_20A0210
+	dc.w	unk_20A04E5-off_20A0210
+	dc.w	unk_20A04E5-off_20A0210
+	dc.w	unk_20A04EC-off_20A0210
+	dc.w	unk_20A04EC-off_20A0210
+	dc.w	unk_20A04EC-off_20A0210
+	dc.w	unk_20A04EC-off_20A0210
+	dc.w	unk_20A04EF-off_20A0210
+	dc.w	unk_20A04EF-off_20A0210
+	dc.w	unk_20A04F6-off_20A0210
+	dc.w	unk_20A04F7-off_20A0210
+	dc.w	unk_20A04FC-off_20A0210
+	dc.w	unk_20A04FF-off_20A0210
+	dc.w	unk_20A0500-off_20A0210
+	dc.w	unk_20A0500-off_20A0210
+	
+; -------------------------------------------------------------------------
+
+unk_20A03D0:
+	dc.b	$FF
+unk_20A03D1:
+	dc.b	$34
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A03DA:
+	dc.b	$35
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A03E3:
+	dc.b	$34
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A03EC:
+	dc.b	$35
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A03F5:
+	dc.b	$34
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A03FE:
+	dc.b	$35
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A0407:
+	dc.b	$34
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A0410:
+	dc.b	$35
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A0419:
+	dc.b	$34
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A0422:
+	dc.b	$35
+	dc.b	$60
+	dc.b	$14
+	dc.b	$3C
+	dc.b	$1B
+	dc.b	$3C
+	dc.b	$25
+	dc.b	$60
+	dc.b	$FF
+unk_20A042B:
+	dc.b	$FF
+unk_20A042C:
+	dc.b	$FF
+unk_20A042D:
+	dc.b	$15
+	dc.b	$3C
+	dc.b	$63
+	dc.b	$60
+	dc.b	$67
+	dc.b	$60
+	dc.b	$62
+	dc.b	$60
+	dc.b	$66
+	dc.b	$60
+	dc.b	$60
+	dc.b	$60
+	dc.b	$17
+	dc.b	$3C
+	dc.b	$2A
+	dc.b	$3C
+	dc.b	$39
+	dc.b	$60
+	dc.b	$FF
+unk_20A0440:
+	dc.b	$15
+	dc.b	$3C
+	dc.b	$63
+	dc.b	$60
+	dc.b	$67
+	dc.b	$60
+	dc.b	$62
+	dc.b	$60
+	dc.b	$66
+	dc.b	$60
+	dc.b	$60
+	dc.b	$60
+	dc.b	$17
+	dc.b	$3C
+	dc.b	$2A
+	dc.b	$3C
+	dc.b	$39
+	dc.b	$60
+	dc.b	$FF
+unk_20A0453:
+	dc.b	$15
+	dc.b	$3C
+	dc.b	$63
+	dc.b	$60
+	dc.b	$67
+	dc.b	$60
+	dc.b	$62
+	dc.b	$60
+	dc.b	$66
+	dc.b	$60
+	dc.b	$60
+	dc.b	$60
+	dc.b	$17
+	dc.b	$3C
+	dc.b	$2A
+	dc.b	$3C
+	dc.b	$39
+	dc.b	$60
+	dc.b	$FF
+unk_20A0466:
+	dc.b	$15
+	dc.b	$3C
+	dc.b	$63
+	dc.b	$60
+	dc.b	$67
+	dc.b	$60
+	dc.b	$62
+	dc.b	$60
+	dc.b	$66
+	dc.b	$60
+	dc.b	$60
+	dc.b	$60
+	dc.b	$17
+	dc.b	$3C
+	dc.b	$2A
+	dc.b	$3C
+	dc.b	$39
+	dc.b	$60
+	dc.b	$FF
+unk_20A0479:
+	dc.b	$15
+	dc.b	$3C
+	dc.b	$63
+	dc.b	$60
+	dc.b	$67
+	dc.b	$60
+	dc.b	$62
+	dc.b	$60
+	dc.b	$66
+	dc.b	$60
+	dc.b	$60
+	dc.b	$60
+	dc.b	$17
+	dc.b	$3C
+	dc.b	$2A
+	dc.b	$3C
+	dc.b	$39
+	dc.b	$60
+	dc.b	$FF
+unk_20A048C:
+	dc.b	$FF
+unk_20A048D:
+	dc.b	$3D
+	dc.b	1
+	dc.b	$3C
+	dc.b	$60
+	dc.b	$38
+	dc.b	$60
+	dc.b	$29
+	dc.b	$60
+	dc.b	$48
+	dc.b	$3C
+	dc.b	$36
+	dc.b	$3C
+	dc.b	$FF
+unk_20A049A:
+	dc.b	$28
+	dc.b	$60
+	dc.b	$2D
+	dc.b	$3C
+	dc.b	$FF
+unk_20A049F:
+	dc.b	$32
+	dc.b	$3C
+	dc.b	$2B
+	dc.b	$60
+	dc.b	$1F
+	dc.b	$3C
+	dc.b	$20
+	dc.b	1
+	dc.b	$21
+	dc.b	$3C
+	dc.b	$22
+	dc.b	$60
+	dc.b	$FF
+unk_20A04AC:
+	dc.b	$32
+	dc.b	$3C
+	dc.b	$2B
+	dc.b	$60
+	dc.b	$1F
+	dc.b	$3C
+	dc.b	$20
+	dc.b	1
+	dc.b	$21
+	dc.b	$3C
+	dc.b	$22
+	dc.b	$60
+	dc.b	$FF
+unk_20A04B9:
+	dc.b	$FF
+unk_20A04BA:
+	dc.b	$2E
+	dc.b	1
+	dc.b	$2F
+	dc.b	$3C
+	dc.b	$FF
+unk_20A04BF:
+	dc.b	$FF
+unk_20A04C0:
+	dc.b	$2E
+	dc.b	1
+	dc.b	$2F
+	dc.b	$3C
+	dc.b	$FF
+unk_20A04C5:
+	dc.b	$2E
+	dc.b	1
+	dc.b	$2F
+	dc.b	$3C
+	dc.b	$FF
+unk_20A04CA:
+	dc.b	$3E
+	dc.b	$3C
+	dc.b	$FF
+unk_20A04CD:
+	dc.b	$4B
+	dc.b	$60
+	dc.b	$5E
+	dc.b	1
+	dc.b	$5D
+	dc.b	1
+	dc.b	$5C
+	dc.b	$3C
+	dc.b	$5B
+	dc.b	$3C
+	dc.b	$5A
+	dc.b	$3C
+	dc.b	$59
+	dc.b	$3C
+	dc.b	$58
+	dc.b	$60
+	dc.b	$FF
+unk_20A04DE:
+	dc.b	$FF
+unk_20A04DF:
+	dc.b	$71
+	dc.b	$60
+	dc.b	$6B
+	dc.b	1
+	dc.b	$FF
+unk_20A04E4:
+	dc.b	$FF
+unk_20A04E5:
+	dc.b	$52
+	dc.b	1
+	dc.b	$4D
+	dc.b	1
+	dc.b	$26
+	dc.b	1
+	dc.b	$FF
+unk_20A04EC:
+	dc.b	$1A
+	dc.b	$3C
+	dc.b	$FF
+unk_20A04EF:
+	dc.b	$4D
+	dc.b	1
+	dc.b	$6F
+	dc.b	$3C
+	dc.b	$6E
+	dc.b	1
+	dc.b	$FF
+unk_20A04F6:
+	dc.b	$FF
+unk_20A04F7:
+	dc.b	$15
+	dc.b	$60
+	dc.b	$55
+	dc.b	1
+	dc.b	$FF
+unk_20A04FC:
+	dc.b	$50
+	dc.b	$60
+	dc.b	$FF
+unk_20A04FF:
+	dc.b	$FF
+unk_20A0500:
+	dc.b	$FF
+	dc.b	9
+	dc.b	0
+	dc.b	9
+
+; -------------------------------------------------------------------------

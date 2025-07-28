@@ -1,0 +1,47 @@
+; -------------------------------------------------------------------------
+; Music index
+; -------------------------------------------------------------------------
+
+	DEFINE_SONG Mus_DoorIntoSummer
+	DEFINE_SONG Mus_Electoria
+	DEFINE_SONG Mus_SpeedOfSound
+	DEFINE_SONG Mus_Seascape
+	DEFINE_SONG Mus_MidnightGreenhouse
+	DEFINE_SONG Mus_NewMoon
+	DEFINE_SONG Mus_Labyrinth
+	DEFINE_SONG Mus_TrialAndError
+	DEFINE_SONG Mus_Walkin
+	DEFINE_SONG Mus_HyperHyper
+	DEFINE_SONG Mus_EveningStar
+	DEFINE_SONG Mus_Moonrise
+	DEFINE_SONG Mus_Overture
+	DEFINE_SONG Mus_ThisHorizon
+	DEFINE_SONG Mus_TakeOff
+	DEFINE_SONG Mus_Combination
+	DEFINE_SONG Mus_TakeANap
+	DEFINE_SONG Mus_SurgingPower
+	DEFINE_SONG Mus_MechanicalDance
+	DEFINE_SONG Mus_TubePanic
+	DEFINE_SONG Mus_CrystalNightmare
+	DEFINE_SONG Mus_ChildsSong
+	DEFINE_SONG Mus_SodaPop
+	DEFINE_SONG Mus_Pendulum
+	DEFINE_SONG Mus_SilverScreen
+	DEFINE_SONG Mus_TachyTouch
+	DEFINE_SONG Mus_ChaoticWorld
+	DEFINE_SONG Mus_Surprise
+	DEFINE_SONG Mus_NiceMeetingYou
+	DEFINE_SONG Mus_HaveAHappyDay
+	DEFINE_SONG Mus_ReachTheGoal
+	DEFINE_SONG Mus_HighFive
+	DEFINE_SONG Mus_Decision
+	DEFINE_SONG Mus_FromPartyToParty
+	DEFINE_SONG Mus_HaveSomeFun
+	DEFINE_SONG Mus_OrientalLegend
+	DEFINE_SONG Mus_SteelHeart
+	DEFINE_SONG Mus_Tribute
+	DEFINE_SONG Mus_DestructivePower
+	DEFINE_SONG Mus_JustAnotherDay
+	DEFINE_SONG Mus_Decision2nd
+	
+; -------------------------------------------------------------------------

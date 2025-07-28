@@ -1,0 +1,8 @@
+*.32x
+*.id0
+*.id1
+*.lst
+*.nam
+*.p
+*.til
+out/
