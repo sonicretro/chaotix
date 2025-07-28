@@ -8,7 +8,7 @@ As for how the 68000 side is mapped out, Chaotix fixes the switchable bank (mapp
 
 Also, while it may seem there's no checksum check, that's because it's handled by the 32X master SH-2 boot ROM, so keep that in mind.
 
-Hopefully someone finds use in it and perhaps even continue where I left off. You can also find the old disassembly by andlabs in the "_old" folder.
+Hopefully someone finds use in it and perhaps even continue where I left off. You can also find the old disassembly by andlabs in the "old" folder.
 
 Devon  
 July 27, 2025
