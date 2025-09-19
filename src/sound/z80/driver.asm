@@ -1034,7 +1034,7 @@ UpdatePortamento:
 	sbc	hl,bc
 	jr	c,.CheckOverflow				; If not, branch
 	
-	ld	hl,-57Bh					; Move down an octabe
+	ld	hl,-57Bh					; Move down an octave
 	add	hl,de
 	jr	.SetFrequency
 
