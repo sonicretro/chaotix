@@ -7200,8 +7200,7 @@ loc_884EB2:
 
 
 GetStageObjLayout:
-	
-	lea	stageObjLayouts,a0
+	lea	StageObjLayouts,a0
 	moveq	#0,d0
 	move.w	attraction,d0
 	add.w	d0,d0
@@ -15028,7 +15027,7 @@ InitStageCamera:
 loc_889396:
 	clr.l	(a1)+
 	dbf	d0,loc_889396
-	lea	stageBoundsIndex,a6
+	lea	StageBoundsIndex,a6
 	jsr	GetStageDataIndex
 	tst.l	(a6)
 	blt.w	locret_889408
@@ -15123,7 +15122,7 @@ loc_889458:
 
 
 LoadStageCollision:
-	lea	stageCollisionIndex,a6
+	lea	StageCollisionIndex,a6
 	jsr	GetStageDataIndex
 	tst.l	(a6)
 	blt.s	locret_8894B2
@@ -84097,7 +84096,7 @@ loc_8AFB16:
 	clr.w	$2A(a6)
 	addq.w	#1,$2C(a6)
 	move.w	a6,-(sp)
-	lea	stageBoundsIndex,a6
+	lea	StageBoundsIndex,a6
 	jsr	GetStageDataIndex
 	movea.l	(a6),a6
 	move.w	(a6)+,d1
@@ -87854,7 +87853,7 @@ locret_8B1D08:
 
 
 InitStageArtAnim:
-	lea	stageAnimArt,a6
+	lea	StageAnimArt,a6
 	jsr	GetStageDataIndex
 
 loc_8B1D16:
@@ -109932,13 +109931,13 @@ LoadGameSave:
 	move.l	(a1)+,(a2)+
 	dbf	d0,.CopyFunc
 	movea.l	a0,a2
-	lea	sRAM_START,a1
+	lea	SRAM_START,a1
 	jsr	byte_FF0200
 	movea.l	a2,a0
 	bsr.s	CheckSRAMChecksum
 	beq.s	.GotData
 	movea.l	a2,a0
-	lea	sRAM_BACKUP,a1
+	lea	SRAM_BACKUP,a1
 	jsr	byte_FF0200
 	movea.l	a2,a0
 	bsr.s	CheckSRAMChecksum
@@ -110012,10 +110011,10 @@ SaveGame:
 	dbf	d1,.CalcChecksum
 	move.l	d0,(a2)
 	movea.l	a2,a0
-	lea	sRAM_START,a1
+	lea	SRAM_START,a1
 	jsr	byte_FF0200
 	movea.l	a2,a0
-	lea	sRAM_BACKUP,a1
+	lea	SRAM_BACKUP,a1
 	jsr	byte_FF0200
 	bsr.w	sub_8BE496
 	movem.l	(sp)+,d0-d1/a0-a2
